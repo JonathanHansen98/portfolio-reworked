@@ -29,9 +29,11 @@ let animation = () => {
             resetClicked = true
             $("#reset").text("View Logo")
             $("#logo-an").hide()
-            $("#about").show()
+            $("#about").show(1000)
         }
         else {
+            $("#about").hide()
+            $("#logo-an").show()
             animation()
             resetClicked = false
         } 
