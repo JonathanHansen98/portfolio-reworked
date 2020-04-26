@@ -17,5 +17,5 @@ let animation = () => {
         opacity: "1",
         ease: "expo.out"
     }).delay(.7)
-
+}
 animation()

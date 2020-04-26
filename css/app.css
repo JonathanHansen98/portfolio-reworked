@@ -76,7 +76,7 @@
 
 /* Foundation Font Reset */
  body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
-  font-family: 'comfortaa';
+  font-family: 'Comfortaa';
 }  
 
 #about {
@@ -146,10 +146,6 @@ i:hover {
   transform-origin: center;
 }
 
-/* #logo-text {
-  padding: 0 75px;
-} */
-
 #devlogo {
   width: 250px;
   opacity: 0;
@@ -175,15 +171,4 @@ i:hover {
  .has-tip {
    border-bottom: none;
  }
-
- /* @media print, screen and (max-width: 40em) {
-
-#logo-an {
-  display: none;
-}
-
- } */
-
-
-
 
