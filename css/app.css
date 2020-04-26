@@ -73,6 +73,20 @@
 
 /* My CSS */
 
+
+/* Foundation Font Reset */
+ body, .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'comfortaa';
+}  
+
+#about {
+  margin-top: 3rem;
+}
+
+#hero {
+  height: 50vh;
+}
+
 .card i {
   margin: 7px;
 }
@@ -154,10 +168,21 @@ i:hover {
   width: 75%;
 }
 
-#about {
+ #logo-text {
+   white-space: nowrap;
+ }
+
+ .has-tip {
+   border-bottom: none;
+ }
+
+ /* @media print, screen and (max-width: 40em) {
+
+#logo-an {
   display: none;
 }
 
+ } */
 
 
 
